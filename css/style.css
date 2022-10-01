@@ -588,7 +588,7 @@ footer .copyright {
   border-top: 1px solid #fff;
 }
 
-footer .copyright span {
+footer .copyright span:nth-child(1) {
   color: var(--main-color);
   font-weight: 500;
 }
