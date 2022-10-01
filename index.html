@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dine Out - Restaurant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <script src="js/aos.js" defer></script>
+  <script src="js/bootstrap.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  
+  <!-- Preloader -->
+  
+  <div class="preloader">
+    
+    <div class="balls">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    
+  </div>
+
+  <!-- Header -->
+
+  <header class="p-2 fixed-top">
+    <div class="container-lg">
+      <div class="header-row d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="dine out" class="d-block mx-auto img-fluid">
+          </a>
+        </div>
+        <div class="nav-toggle">
+          <button type="button" class="toggle-btn d-flex align-items-center justify-content-center px-1"><span class="rounded"></span></button>
+        </div>
+        <nav class="pt-5 min-height">
+          <ul>
+            <li data-aos="fade-right" class="nav-item">
+              <a href="#home" class="nav-link text-light">Home</a>
+            </li>
+            <li data-aos="fade-right" class="nav-item my-2">
+              <a href="#about" class="nav-link text-light">About</a>
+            </li>
+            <li data-aos="fade-right" class="nav-item my-2">
+              <a href="#menu" class="nav-link text-light">Menu</a>
+            </li>
+            <li data-aos="fade-right" class="nav-item my-2">
+              <a href="#testimonials" class="nav-link text-light">Testimonials</a>
+            </li>
+            <li data-aos="fade-right" class="nav-item my-2">
+              <a href="#team" class="nav-link text-light">Team</a>
+            </li>
+            <li data-aos="fade-right" class="nav-item my-2">
+              <a href="#contact" class="nav-link text-light">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+
+  <section id="home">
+    <div class="container-lg">
+      <div class="home-bg"></div>
+      <div class="home-content d-flex align-items-center justify-content-center">
+        <div data-aos="fade-up" data-aos-duration="1000" class="text-center text-light px-2">
+          <h1 class="display-4 fw-bold cursive text-capitalize">dine out restaurant</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nisl posuere nisl alique</p>
+          <a href="#menu" class="btn btn-default rounded">our menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+
+  <section id="about" class="py-5">
+    <div class="container-lg">
+      <div data-aos="fade-up" class="title">
+        <h2 data-title="our story" class="display-4 text-capitalize fw-bold">about us</h2>
+      </div>
+      <div class="row mt-4 g-4 align-items-center justify-content-around">
+        <div data-aos="fade-right" class="col-md-6 col-xl-5 text-center text-md-start">
+          <h5 class="text-capitalize h3">welcome to dine out restaurant</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit purus finibus ornare molestie. Pellentesque felis orci, eleifend id nisi vitae, posuere aliquam ipsum. Nulla dignissim feugiat massa, eget mattis justo cursus eu. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit purus finibus ornare molestie. Pellentesque felis orci, eleifend id nisi vitae, posuere aliquam ipsum. Nulla dignissim feugiat massa, eget mattis justo cursus eu. </p>
+          <a href="#menu" class="btn btn-default">check our menu</a>
+        </div>
+        <div data-aos="fade-left" class="col-md-6 col-xl-5 about-img d-none d-md-block text-center text-md-start ">
+          <img class="rounded d-block mx-auto img-fluid" src="img/about-img.jpg" alt="">
+          <p class="cursive exp-text text-center h3 fw-bold text-capitalize">20+ years experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+
+  <section id="menu" class="py-5 mt-4">
+    <div class="container-lg">
+      <div data-aos="fade-up" class="title">
+        <h2 data-title="order now" class="display-4 text-capitalize fw-bold">our menu</h2>
+      </div>
+      <div data-aos="fade-up" class="text-center menu-btn-group mt-4 mb-5">
+        <button data-target="#lunch" type="button" class="text-capitalize active btn menu-btn">lunch</button>
+        <button data-target="#dinner" type="button" class="text-capitalize  btn menu-btn">dinner</button>
+        <button data-target="#drinks" type="button" class="text-capitalize btn menu-btn">drinks</button>
+        <button data-target="#desserts" type="button" class="text-capitalize btn menu-btn">desserts</button>
+      </div>
+
+      <div id="lunch" class="menu-group active mt-5">
+        <div class="menu-group-item row g-4">
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/1.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/2.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/3.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/4.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/5.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/6.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/7.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/8.jpg" alt="menu item">
+              <p>Lunch item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$40.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dinner" class="menu-group mt-5">
+        <div class="menu-group-item row g-4">
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/1.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/2.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/3.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/4.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/5.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/6.jpg" alt="menu item">
+              <p>Dinner item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$30.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="drinks" class="menu-group mt-5">
+        <div data-aos="fade-up-right" class="menu-group-item row g-4">
+          <div class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/3.jpg" alt="menu item">
+              <p>Drinks item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$20.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/4.jpg" alt="menu item">
+              <p>Drinks item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$20.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/5.jpg" alt="menu item">
+              <p>Drinks item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$20.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/6.jpg" alt="menu item">
+              <p>Drinks item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$20.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="desserts" class="menu-group mt-5">
+        <div class="menu-group-item row g-4">
+          <div data-aos="fade-up-right" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/2.jpg" alt="menu item">
+              <p>Desserts item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$10.00</p>
+            </div>
+          </div>
+          <div data-aos="fade-up-left" class="col-md-6 d-flex align-items-center justify-content-between">
+            <div class="menu-item d-flex align-items-center">
+              <img class="rounded me-3" src="img/menu/3.jpg" alt="menu item">
+              <p>Desserts item</p>
+            </div>
+            <div class="menu-item-price">
+              <p>$10.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testiomials Section -->
+
+  <section id="testimonials" class="py-5 mt-4">
+    <div class="container-lg">
+      <div data-aos="fade-up" class="title">
+        <h2 data-title="testimonials" class="display-4 text-capitalize fw-bold">some feedbacks</h2>
+      </div>
+      <div class="row px-2 cards mt-5 g-4 align-items-center justify-content-center">
+        <div data-aos="zoom-in" class="card col-10 col-md-6 col-lg-4">
+          <div class="card-header d-flex align-items-center justify-content-between">
+            <div class="person-name">
+              <span class="text-capitalize">benedict umeozor</span>
+              <span class="text-capitalize">food specialist</span>
+            </div>
+            <div class="person-img">
+              <img src="img/testimonials/3.jpg" alt="person">
+            </div>
+          </div>
+          <div class="card-body">
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit purus finibus ornare molestie. </p>
+            </div>
+            <div class="ratings">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card col-10 col-md-6 col-lg-4">
+          <div class="card-header d-flex align-items-center justify-content-between">
+            <div class="person-name">
+              <span class="text-capitalize">benedicta umeozor</span>
+              <span class="text-capitalize">food specialist</span>
+            </div>
+            <div class="person-img">
+              <img src="img/testimonials/1.jpg" alt="person">
+            </div>
+          </div>
+          <div class="card-body">
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit purus finibus ornare molestie. </p>
+            </div>
+            <div class="ratings">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card col-10 col-md-6 col-lg-4">
+          <div class="card-header d-flex align-items-center justify-content-between">
+            <div class="person-name">
+              <span class="text-capitalize">benedicta chukwuzubelu</span>
+              <span class="text-capitalize">food specialist</span>
+            </div>
+            <div class="person-img">
+              <img src="img/testimonials/2.jpg" alt="person">
+            </div>
+          </div>
+          <div class="card-body">
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit purus finibus ornare molestie. </p>
+            </div>
+            <div class="ratings">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+
+  <section id="team" class="py-5 mt-4">
+    <div class="container-lg">
+      <div data-aos="fade-up" class="title">
+        <h2 data-title="the team" class="display-4 text-capitalize fw-bold">our chefs</h2>
+      </div>
+      <div class="row g-5 px-2 team-cards mt-4 align-items-center justify-content-center">
+        <div data-aos="flip-left" data-aos-duration="1000" id="team-card" class="team-card col-10 col-md-6 col-lg-4">
+          <img src="img/team/1.jpg" alt="team-member" class="rounded d-block mx-auto img-fluid">
+          <div class="team-info p-3 rounded text-center">
+            <span class="text-capitalize d-block">benedicta umeozor</span>
+            <span class="d-block text-capitalize">head chef</span>
+          </div>
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" id="team-card" class="team-card col-10 col-md-6 col-lg-4">
+          <img src="img/team/2.jpg" alt="team-member" class="rounded d-block mx-auto img-fluid">
+          <div class="team-info p-3 rounded text-center">
+            <span class="text-capitalize d-block">benedict umeozor</span>
+            <span class="d-block text-capitalize">head chef</span>
+          </div>
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" id="team-card" class="team-card col-10 col-md-6 col-lg-4">
+          <img src="img/team/3.jpg" alt="team-member" class="rounded d-block mx-auto img-fluid">
+          <div class="team-info p-3 rounded text-center">
+            <span class="text-capitalize d-block">benedicta john</span>
+            <span class="d-block text-capitalize">head chef</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="pt-5 mt-4" id="contact">
+    <div class="container-lg">
+      <div class="row contacts g-4 align-items-center justify-content-center">
+        <div data-aos="fade-up" class="col-md-6 col-lg-4 text-center text-light contact">
+          <h4 class="h2 text-capitalize fw-bold">our location</h4>
+          <p>Lagos, Nigeria</p>
+        </div>
+        <div data-aos="fade-up" class="col-md-6 col-lg-4 text-center text-light contact">
+          <h4 class="h2 text-capitalize fw-bold">opening hours</h4>
+          <p>Monday - Sunday</p>
+          <p>9:00am - 10:00pm</p>
+        </div>
+        <div data-aos="fade-up" class="col-md-6 col-lg-4 text-center text-light contact">
+          <h4 class="h2 text-capitalize fw-bold">contact us</h4>
+          <p>+234 810 821 8964</p>
+          <a class="d-block text-light" href="mailto:benedictumeozor@gmail.com">benedictumeozor@gmail.com</a>
+          <div class="media mt-2">
+            <a href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright py-4 mt-5 text-center text-light">
+        <p>Created by <span>Benedict</span> &copy; 2022</p>
+        <p>Template from The WebShala</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
